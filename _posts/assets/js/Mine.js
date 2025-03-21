@@ -1,6 +1,6 @@
-## File: quantum.py
+import { codeToHtml } from 'https://esm.sh/shiki@3.0.0'
 
-```python
+const code = `
 import re
 
 # Function to print error message template and then exit***
@@ -159,4 +159,10 @@ for line in contents.splitlines():
           else:
             error(f"Variable \"{part}\" does not exist.", line)
       variables[var_name] = var_value  # Add to variables
-```
+`
+
+const quantum = document.getElementById('quantum')
+quantum.innerHTML = await codeToHtml(`${code}`, {
+    lang: 'python',
+    theme: 'github-light'
+})
