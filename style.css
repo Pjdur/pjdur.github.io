@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    background-color: #faf8f5; /* Warm cream background */
+    color: #2b2b2b;          /* Soft dark grey text (easier on eyes than black) */
+    line-height: 1.6;
+    padding: 60px 20px;
+}
+
+.container {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    margin-bottom: 8px;
+}
+
+.about {
+    font-size: 1.05rem;
+    color: #555555;
+    margin-bottom: 16px;
+}
+
+.links a {
+    color: #2b2b2b;
+    font-weight: 500;
+    margin-right: 16px;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.links a:hover {
+    color: #777;
+}
+
+/* Sections */
+.section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #888888;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+.languages-list {
+    font-size: 0.95rem;
+    color: #444444;
+}
+
+/* Minimal Project List */
+.project-list {
+    list-style: none;
+}
+
+.project-list li {
+    margin-bottom: 16px;
+}
+
+.title {
+    font-weight: 600;
+    color: #111111;
+    text-decoration: none;
+    border-bottom: 1px dotted #888888;
+}
+
+.title:hover {
+    border-bottom-style: solid;
+}
+
+.desc {
+    color: #555555;
+    font-size: 0.95rem;
+}
